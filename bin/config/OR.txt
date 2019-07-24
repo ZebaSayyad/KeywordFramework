@@ -1,0 +1,5 @@
+btn_SignIn=.//span[contains(text(),'Hello, Sign in')]
+btn_LogIn=.//input[@id='signInSubmit']
+
+txtbx_Email=.//input[@id='ap_email']
+txtbx_Password=.//input[@id='ap_password']
