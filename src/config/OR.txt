@@ -1,7 +1,7 @@
 btn_SignIn=.//span[contains(text(),'Hello, Sign in')]
 btn_Continue=.//input[@id='continue']
 btn_LogIn=.//input[@id='signInSubmit']
-
+btn_Account=.//*[@class='nav-a nav-a-2 nav-truncate']
 btn_SignOut=.//span[contains(text(),'Sign Out')]
 
 txtbx_Email=.//input[@id='ap_email']

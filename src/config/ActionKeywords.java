@@ -65,21 +65,12 @@ public class ActionKeywords {
 	public static void input(String object, String data) {
 		try {
 			Log.info("Entering text in Email ");
-			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(Constants.email);
+			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
 			Log.error("Not able to Enter Email---" + e.getMessage());
 			DriverScript.bResult = false;
 		}
 	}
-
-	/*
-	 * public static void input(String object,String data) { try {
-	 * Log.info("Entering text in Password");
-	 * driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(Constants.
-	 * password); } catch (Exception e) {
-	 * Log.error("Not able to Enter Password---"+e.getMessage());
-	 * DriverScript.bResult=false; } }
-	 */
 
 	public static void wait_For(String object, String data) throws InterruptedException {
 		try {
@@ -92,21 +83,23 @@ public class ActionKeywords {
 
 		}
 	}
-
-	public static void click_SignOut() throws InterruptedException {
-		WebElement element1 = driver.findElement(By.xpath("//span[contains(text(),'Account & Lists')][1]"));
-
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-		Actions action = new Actions(driver);
-		action.moveToElement(element1);
-		Thread.sleep(3000);
-		action.build().perform();
-
-		driver.findElement(By.xpath("//span[contains(text(),'Sign Out')]")).click();
+	
+	public static void mouseHover(String object, String data) throws InterruptedException {
+		try {
+			WebElement element = driver.findElement(By.xpath(OR.getProperty(object)));
+			Actions action = new Actions(driver);
+			Log.info("Mouse hovering...");
+			action.moveToElement(element).build().perform();
+			Log.info("Mouse hovered");
+			wait_For("","");
+		}catch(Exception e) {
+			Log.error("Not able to hover mouse---" + e.getMessage());
+			DriverScript.bResult = false;
+		}
+		
 	}
 
-	public static void closeBrowser() {
+	public static void closeBrowser(String object, String data) {
 		try {
 			Log.info("Closing the browser");
 			driver.quit();

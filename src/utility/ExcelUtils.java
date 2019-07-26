@@ -38,31 +38,20 @@ public class ExcelUtils {
 		try {
 			sheet = book.getSheet(sheetName);
 			row = sheet.getRow(rowNum);
-
-			data=sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
-			//System.out.println("Data in excel at row " + rowNum + " is " + data);
+			cell = row.getCell(colNum);
 			
-			  
-			  if ((cell) != null) 
-			  {
-				  cell = row.getCell(colNum);
-				  } 
-			  else {
-				  cell=row.createCell(colNum);
-			  }
-			  
-			 
-					  //cell.getCellValue();
-			 
-		} catch (Exception e) {
-			System.out.println("Row" + rowNum + "Coulum" + colNum + "SheetName" + sheetName);
-			e.printStackTrace();
-			Log.error("Class Utils|Method getData|Exception desc :" + e.toString());
-			DriverScript.bResult = false;
-		}
-		return data;
-
+			if ((cell) != null) 
+			{
+				data = cell.getStringCellValue();
+			} 
 		
+			return data;
+			
+		} catch (Exception e) {
+			Log.error("Class Utils|Method getData|Exception desc :" + e.getMessage());
+			DriverScript.bResult = false;
+			return "";
+		}
 	}
 
 	public static int getRowCount(String sheetName) {
@@ -84,10 +73,11 @@ public class ExcelUtils {
 		int rowNum = 0;
 		try {
 			sheet = book.getSheet(sheetName);
-			int rowCount = ExcelUtils.getRowCount(sheetName);
+			int rowCount = getRowCount(sheetName);
 
 			for (rowNum = 0; rowNum < rowCount; rowNum++) {
-				if (ExcelUtils.getData(rowNum, colNo, sheetName).equalsIgnoreCase(testCaseName)) {
+				String testCaseToBeExecuted = getData(rowNum, colNo, sheetName);
+				if (testCaseToBeExecuted.equalsIgnoreCase(testCaseName)) {
 					break;
 				}
 			}
@@ -103,14 +93,14 @@ public class ExcelUtils {
 	public static int getTestStepsCount(String sheetName, String testCaseId, int testCaseStart) {
 
 		try {
-			for (int i = testCaseStart; i < ExcelUtils.getRowCount(sheetName); i++) {
-				if (!testCaseId.equals(ExcelUtils.getData(i, Constants.col_TestCaseID, sheetName))) {
+			int rowCount = getRowCount(sheetName);
+			for (int i = testCaseStart; i < rowCount ; i++) {
+				String testCaseIdToBeRun = getData(i, Constants.col_TestCaseID, sheetName);
+				if (!testCaseId.equalsIgnoreCase(testCaseIdToBeRun)) {
 					int number = i;
-
 					return number;
 				}
 			}
-
 			sheet = book.getSheet(sheetName);
 			int number = sheet.getLastRowNum() + 1;
 			return number;
@@ -121,13 +111,9 @@ public class ExcelUtils {
 		return 0;
 	}
 
-	public static void setData(String result, int colNum, int rowNum, String sheetName) {
+	public static void setData(String result, int rowNum, int colNum, String sheetName) {
 
 		try {
-			FileOutputStream fos = new FileOutputStream(Constants.path_File);
-			book.write(fos);
-			fos.close();
-
 			sheet = book.getSheet(sheetName);
 			row = sheet.getRow(rowNum);
 			cell = row.getCell(colNum);
@@ -137,12 +123,16 @@ public class ExcelUtils {
 			} else {
 				cell.setCellValue(result);
 			}
+			
+			FileOutputStream fos = new FileOutputStream(Constants.path_File);
+			book.write(fos);
+			fos.flush();
+			fos.close();
+			
 
 		} catch (Exception e) {
-			e.printStackTrace();
 			Log.error("Class Utils|Method setData|Exception desc :" + e.toString());
 			DriverScript.bResult = false;
-
 		}
 	}
 
