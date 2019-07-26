@@ -166,3 +166,47 @@ Session ID: 1c14dc0b6eb38b0850178f21d419db04
 2019-07-26 20:04:18,655 INFO  [Log] Clicking on element btn_SignOut 
 2019-07-26 20:04:19,934 INFO  [Log] Closing the browser 
 2019-07-26 20:04:21,289 INFO  [Log] *****************END******************** 
+2019-07-26 20:26:04,178 INFO  [Log] *********Login_01************ 
+2019-07-26 20:26:04,179 INFO  [Log] Opening browser 
+2019-07-26 20:26:10,153 INFO  [Log] Chrome browser started... 
+2019-07-26 20:26:10,433 INFO  [Log] Navigating to url 
+2019-07-26 20:26:37,598 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:26:39,238 INFO  [Log] Entering text in Email  
+2019-07-26 20:26:39,630 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:26:41,633 INFO  [Log] Entering text in Email  
+2019-07-26 20:26:41,983 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:29:01,027 INFO  [Log] *********Login_01************ 
+2019-07-26 20:29:01,028 INFO  [Log] Opening browser 
+2019-07-26 20:29:07,791 INFO  [Log] Chrome browser started... 
+2019-07-26 20:29:08,001 INFO  [Log] Navigating to url 
+2019-07-26 20:29:25,121 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:29:28,126 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:29:29,509 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:29:32,509 INFO  [Log] Entering text in Email  
+2019-07-26 20:29:32,997 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:29:35,998 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:29:37,811 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:29:40,812 INFO  [Log] Entering text in Email  
+2019-07-26 20:29:41,035 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:02,008 INFO  [Log] *********Login_01************ 
+2019-07-26 20:34:02,011 INFO  [Log] Opening browser 
+2019-07-26 20:34:07,902 INFO  [Log] Chrome browser started... 
+2019-07-26 20:34:08,159 INFO  [Log] Navigating to url 
+2019-07-26 20:34:25,915 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:28,917 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:34:30,529 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:33,529 INFO  [Log] Entering text in Email  
+2019-07-26 20:34:34,066 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:37,066 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:34:38,774 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:41,801 INFO  [Log] Entering text in Email  
+2019-07-26 20:34:42,014 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:45,015 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-26 20:34:50,100 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:53,221 INFO  [Log] Mouse hovering... 
+2019-07-26 20:34:53,366 INFO  [Log] Mouse hovered 
+2019-07-26 20:34:53,366 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:56,456 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:34:59,456 INFO  [Log] Clicking on element btn_SignOut 
+2019-07-26 20:35:00,679 INFO  [Log] Closing the browser 
+2019-07-26 20:35:02,025 INFO  [Log] *****************END******************** 

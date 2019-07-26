@@ -53,6 +53,7 @@ public class ActionKeywords {
 
 	public static void click(String object, String data) {
 		try {
+			wait_For("","");
 			Log.info("Clicking on element " + object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
 		} catch (Exception e) {
@@ -64,6 +65,7 @@ public class ActionKeywords {
 
 	public static void input(String object, String data) {
 		try {
+			wait_For("","");
 			Log.info("Entering text in Email ");
 			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
@@ -71,15 +73,6 @@ public class ActionKeywords {
 			DriverScript.bResult = false;
 		}
 	}
-
-	/*
-	 * public static void input(String object,String data) { try {
-	 * Log.info("Entering text in Password");
-	 * driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(Constants.
-	 * password); } catch (Exception e) {
-	 * Log.error("Not able to Enter Password---"+e.getMessage());
-	 * DriverScript.bResult=false; } }
-	 */
 
 	public static void wait_For(String object, String data) throws InterruptedException {
 		try {
@@ -99,7 +92,7 @@ public class ActionKeywords {
 		Log.info("Mouse hovering...");
 		action.moveToElement(element).build().perform();
 		Log.info("Mouse hovered");
-		Thread.sleep(3000);
+		wait_For("","");
 	}
 
 	public static void closeBrowser(String object, String data) {

@@ -111,7 +111,7 @@ public class ExcelUtils {
 		return 0;
 	}
 
-	public static void setData(String result, int colNum, int rowNum, String sheetName) {
+	public static void setData(String result, int rowNum, int colNum, String sheetName) {
 
 		try {
 			sheet = book.getSheet(sheetName);
