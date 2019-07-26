@@ -210,3 +210,78 @@ Session ID: 1c14dc0b6eb38b0850178f21d419db04
 2019-07-26 20:34:59,456 INFO  [Log] Clicking on element btn_SignOut 
 2019-07-26 20:35:00,679 INFO  [Log] Closing the browser 
 2019-07-26 20:35:02,025 INFO  [Log] *****************END******************** 
+2019-07-26 20:39:14,560 INFO  [Log] *********Login_01************ 
+2019-07-26 20:39:14,561 INFO  [Log] Opening browser 
+2019-07-26 20:39:20,358 INFO  [Log] Chrome browser started... 
+2019-07-26 20:39:20,556 INFO  [Log] Navigating to url 
+2019-07-26 20:39:35,585 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:39:37,668 INFO  [Log] Entering text in Email  
+2019-07-26 20:39:38,119 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:39:39,756 INFO  [Log] Entering text in Email  
+2019-07-26 20:39:39,988 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-26 20:39:44,968 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:39:48,146 INFO  [Log] Mouse hovering... 
+2019-07-26 20:39:48,253 INFO  [Log] Mouse hovered 
+2019-07-26 20:39:48,254 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:39:51,300 INFO  [Log] Clicking on element btn_SignOut 
+2019-07-26 20:39:52,481 INFO  [Log] Closing the browser 
+2019-07-26 20:39:54,062 INFO  [Log] *****************END******************** 
+2019-07-26 20:42:56,720 INFO  [Log] *********Login_01************ 
+2019-07-26 20:42:56,721 INFO  [Log] Opening browser 
+2019-07-26 20:43:02,841 INFO  [Log] Chrome browser started... 
+2019-07-26 20:43:03,031 INFO  [Log] Navigating to url 
+2019-07-26 20:43:21,686 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:43:24,373 INFO  [Log] Entering text in Email  
+2019-07-26 20:43:24,905 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:43:26,402 INFO  [Log] Entering text in Email  
+2019-07-26 20:43:26,646 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-26 20:43:31,755 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:43:34,889 INFO  [Log] Mouse hovering... 
+2019-07-26 20:43:35,014 INFO  [Log] Mouse hovered 
+2019-07-26 20:43:35,014 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:43:38,098 INFO  [Log] Clicking on element btn_SignOut 
+2019-07-26 20:43:39,368 INFO  [Log] Closing the browser 
+2019-07-26 20:43:40,906 INFO  [Log] *****************END******************** 
+2019-07-26 20:43:40,907 INFO  [Log] *********Login_02************ 
+2019-07-26 20:43:40,907 INFO  [Log] Opening browser 
+2019-07-26 20:43:44,665 INFO  [Log] Chrome browser started... 
+2019-07-26 20:43:44,704 INFO  [Log] Navigating to url 
+2019-07-26 20:44:17,242 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:44:18,602 INFO  [Log] Entering text in Email  
+2019-07-26 20:44:19,035 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:44:20,660 INFO  [Log] Entering text in Email  
+2019-07-26 20:44:20,791 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-26 20:44:22,725 INFO  [Log] wait for 3 seconds 
+2019-07-26 20:44:25,854 INFO  [Log] *****************END******************** 
+2019-07-26 20:48:20,062 INFO  [Log] *********Login_02************ 
+2019-07-26 20:48:20,063 INFO  [Log] Opening browser 
+2019-07-26 20:48:25,771 INFO  [Log] Chrome browser started... 
+2019-07-26 20:48:25,979 INFO  [Log] Navigating to url 
+2019-07-26 20:49:47,796 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 20:49:59,251 INFO  [Log] Entering text in Email  
+2019-07-26 20:49:59,585 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 20:50:01,805 INFO  [Log] Entering text in Email  
+2019-07-26 20:50:02,043 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-26 20:50:03,939 INFO  [Log] wait for 3 seconds 
+2019-07-26 21:58:09,400 INFO  [Log] *********Login_02************ 
+2019-07-26 21:58:09,412 INFO  [Log] Opening browser 
+2019-07-26 21:58:17,943 INFO  [Log] Chrome browser started... 
+2019-07-26 21:58:18,254 INFO  [Log] Navigating to url 
+2019-07-26 21:58:30,278 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-26 21:58:32,095 INFO  [Log] Entering text in Email  
+2019-07-26 21:58:32,774 INFO  [Log] Clicking on element btn_Continue 
+2019-07-26 21:58:34,810 INFO  [Log] Entering text in Email  
+2019-07-26 21:58:35,155 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-26 21:58:37,241 INFO  [Log] wait for 3 seconds 
+2019-07-26 21:58:50,335 ERROR [Log] Not able to hover mouse---no such element: Unable to locate element: {"method":"xpath","selector":".//*[@class='nav-a nav-a-2 nav-truncate']"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'TAVLAPT192', ip: '172.20.61.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\ssayyad\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55762}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: d5abd7aa1b5bb82dd18301550009b79c
+*** Element info: {Using=xpath, value=.//*[@class='nav-a nav-a-2 nav-truncate']} 
+2019-07-26 21:58:50,377 INFO  [Log] *****************END******************** 

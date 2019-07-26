@@ -53,7 +53,6 @@ public class ActionKeywords {
 
 	public static void click(String object, String data) {
 		try {
-			wait_For("","");
 			Log.info("Clicking on element " + object);
 			driver.findElement(By.xpath(OR.getProperty(object))).click();
 		} catch (Exception e) {
@@ -65,7 +64,6 @@ public class ActionKeywords {
 
 	public static void input(String object, String data) {
 		try {
-			wait_For("","");
 			Log.info("Entering text in Email ");
 			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
@@ -87,12 +85,18 @@ public class ActionKeywords {
 	}
 	
 	public static void mouseHover(String object, String data) throws InterruptedException {
-		WebElement element = driver.findElement(By.xpath(OR.getProperty(object)));
-		Actions action = new Actions(driver);
-		Log.info("Mouse hovering...");
-		action.moveToElement(element).build().perform();
-		Log.info("Mouse hovered");
-		wait_For("","");
+		try {
+			WebElement element = driver.findElement(By.xpath(OR.getProperty(object)));
+			Actions action = new Actions(driver);
+			Log.info("Mouse hovering...");
+			action.moveToElement(element).build().perform();
+			Log.info("Mouse hovered");
+			wait_For("","");
+		}catch(Exception e) {
+			Log.error("Not able to hover mouse---" + e.getMessage());
+			DriverScript.bResult = false;
+		}
+		
 	}
 
 	public static void closeBrowser(String object, String data) {

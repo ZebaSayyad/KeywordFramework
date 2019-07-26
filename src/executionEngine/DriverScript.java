@@ -80,7 +80,6 @@ public class DriverScript {
 				iTestLastStep = ExcelUtils.getTestStepsCount(Constants.TestSteps, sTestCaseID, iTestStep);
 				Log.startTestCase(sTestCaseID);
 				// This loop will execute number of times equal to Total number of test steps
-				bResult = true;
 				for (; iTestStep < iTestLastStep; iTestStep++) {
 					sActionKeyword = ExcelUtils.getData(iTestStep, Constants.col_ActionKeyword,
 							Constants.TestSteps);
