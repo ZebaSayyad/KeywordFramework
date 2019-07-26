@@ -65,7 +65,7 @@ public class ActionKeywords {
 	public static void input(String object, String data) {
 		try {
 			Log.info("Entering text in Email ");
-			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(Constants.email);
+			driver.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
 		} catch (Exception e) {
 			Log.error("Not able to Enter Email---" + e.getMessage());
 			DriverScript.bResult = false;
@@ -92,21 +92,17 @@ public class ActionKeywords {
 
 		}
 	}
-
-	public static void click_SignOut() throws InterruptedException {
-		WebElement element1 = driver.findElement(By.xpath("//span[contains(text(),'Account & Lists')][1]"));
-
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+	
+	public static void mouseHover(String object, String data) throws InterruptedException {
+		WebElement element = driver.findElement(By.xpath(OR.getProperty(object)));
 		Actions action = new Actions(driver);
-		action.moveToElement(element1);
+		Log.info("Mouse hovering...");
+		action.moveToElement(element).build().perform();
+		Log.info("Mouse hovered");
 		Thread.sleep(3000);
-		action.build().perform();
-
-		driver.findElement(By.xpath("//span[contains(text(),'Sign Out')]")).click();
 	}
 
-	public static void closeBrowser() {
+	public static void closeBrowser(String object, String data) {
 		try {
 			Log.info("Closing the browser");
 			driver.quit();

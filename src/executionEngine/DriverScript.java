@@ -62,36 +62,36 @@ public class DriverScript {
 
 	private void execute_TestCase() throws Exception {
 
-		int iTotalTestCases = ExcelUtils.getRowCount(Constants.sheetName2_TestCases);
+		int iTotalTestCases = ExcelUtils.getRowCount(Constants.TestCases);
 
 		// This loop will execute number of times equal to Total number of test cases
 
 		for (int iTestcase = 1; iTestcase < iTotalTestCases; iTestcase++) {
 			bResult = true;
 
-			sTestCaseID = ExcelUtils.getData(iTestcase, Constants.col_TestCaseID, Constants.sheetName2_TestCases);
+			sTestCaseID = ExcelUtils.getData(iTestcase, Constants.col_TestCaseID, Constants.TestCases);
 
-			sRunMode = ExcelUtils.getData(iTestcase, Constants.col_Runmode, Constants.sheetName2_TestCases);
+			sRunMode = ExcelUtils.getData(iTestcase, Constants.col_Runmode, Constants.TestCases);
 
 			if (sRunMode.equals("Yes")) {
 
 				iTestStep = ExcelUtils.getRowContains(sTestCaseID, Constants.col_TestCaseID,
-						Constants.sheetName1_TestSteps);
-				iTestLastStep = ExcelUtils.getTestStepsCount(Constants.sheetName1_TestSteps, sTestCaseID, iTestStep);
+						Constants.TestSteps);
+				iTestLastStep = ExcelUtils.getTestStepsCount(Constants.TestSteps, sTestCaseID, iTestStep);
 				Log.startTestCase(sTestCaseID);
 				// This loop will execute number of times equal to Total number of test steps
 				bResult = true;
-				for (int iTestStep=1; iTestStep < iTestLastStep; iTestStep++) {
+				for (; iTestStep < iTestLastStep; iTestStep++) {
 					sActionKeyword = ExcelUtils.getData(iTestStep, Constants.col_ActionKeyword,
-							Constants.sheetName1_TestSteps);
+							Constants.TestSteps);
 					pageObject = ExcelUtils.getData(iTestStep, Constants.col_PageObject,
-							Constants.sheetName1_TestSteps);
-					testData = ExcelUtils.getData(iTestStep, Constants.col_DataSet, Constants.sheetName1_TestSteps);
+							Constants.TestSteps);
+					testData = ExcelUtils.getData(iTestStep, Constants.col_DataSet, Constants.TestSteps);
 					execute_Actions();
 
 					if (bResult == false) {
 						ExcelUtils.setData(Constants.KEYWORD_FAIL, iTestcase, Constants.col_TestCasesResult,
-								Constants.sheetName2_TestCases);
+								Constants.TestCases);
 						Log.endTestCase(sTestCaseID);
 						break;
 					}
@@ -99,7 +99,7 @@ public class DriverScript {
 				}
 				if (bResult == true) {
 					ExcelUtils.setData(Constants.KEYWORD_PASS, iTestcase, Constants.col_TestCasesResult,
-							Constants.sheetName2_TestCases);
+							Constants.TestCases);
 					Log.endTestCase(sTestCaseID);
 				}
 			}
@@ -117,11 +117,11 @@ public class DriverScript {
 
 				if (bResult == true) {
 					ExcelUtils.setData(Constants.KEYWORD_PASS, iTestStep, Constants.col_TestStepsResult,
-							Constants.sheetName1_TestSteps);
+							Constants.TestSteps);
 					break;
 				} else {
 					ExcelUtils.setData(Constants.KEYWORD_FAIL, iTestStep, Constants.col_TestStepsResult,
-							Constants.sheetName1_TestSteps);
+							Constants.TestSteps);
 					// ActionKeywords.closeBrowser();
 					break;
 				}
