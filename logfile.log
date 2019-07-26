@@ -1,0 +1,716 @@
+2019-07-25 15:57:48,543 INFO  [Log] Opening browser 
+2019-07-25 15:57:54,359 INFO  [Log] Navigating to url 
+2019-07-25 15:57:58,744 INFO  [Log] Clicking on elementbtn_SignIn 
+2019-07-25 15:58:06,648 INFO  [Log] Entering text in Email  
+2019-07-25 15:58:07,324 INFO  [Log] Clicking on elementbtn_Continue 
+2019-07-25 15:58:14,104 INFO  [Log] Entering text in Password 
+2019-07-25 15:58:14,304 INFO  [Log] Clicking on elementbtn_LogIn 
+2019-07-25 15:59:12,610 INFO  [Log] Opening browser 
+2019-07-25 15:59:18,518 INFO  [Log] Navigating to url 
+2019-07-25 15:59:26,115 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-25 15:59:31,007 INFO  [Log] Entering text in Email  
+2019-07-25 15:59:31,606 INFO  [Log] Clicking on element btn_Continue 
+2019-07-25 15:59:33,636 INFO  [Log] Entering text in Password 
+2019-07-25 15:59:33,902 INFO  [Log] Clicking on element btn_LogIn 
+2019-07-25 17:15:36,898 INFO  [Log] *********Login_01************ 
+2019-07-25 17:15:36,898 INFO  [Log] Opening browser 
+2019-07-25 17:15:44,444 INFO  [Log] Navigating to url 
+2019-07-25 17:15:50,021 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-25 17:15:56,485 INFO  [Log] Entering text in Email  
+2019-07-25 17:15:57,375 INFO  [Log] Entering text in Password 
+2019-07-25 17:15:57,837 ERROR [Log] Not able to Enter Password---no such element: Unable to locate element: {"method":"xpath","selector":".//input[@id='ap_password']"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-UCGL7D2', ip: '192.168.2.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57887}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\PC\AppData\Local\Temp\scoped_dir7292_29276}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 40e38f9ea28eceef4ee41c1cff948ca7
+*** Element info: {Using=xpath, value=.//input[@id='ap_password']} 
+2019-07-25 17:15:57,947 INFO  [Log] Closing the browser 
+2019-07-25 17:15:59,057 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 17:15:59,057 INFO  [Log] *****************END******************** 
+2019-07-25 17:15:59,057 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 17:15:59,057 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 17:17:07,140 INFO  [Log] *********Login_01************ 
+2019-07-25 17:17:07,140 INFO  [Log] Opening browser 
+2019-07-25 17:17:13,894 INFO  [Log] Navigating to url 
+2019-07-25 17:17:21,537 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-25 17:17:24,370 INFO  [Log] Entering text in Email  
+2019-07-25 17:17:24,971 INFO  [Log] Entering text in Password 
+2019-07-25 17:17:25,046 ERROR [Log] Not able to Enter Password---no such element: Unable to locate element: {"method":"xpath","selector":".//input[@id='ap_password']"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-UCGL7D2', ip: '192.168.2.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57942}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\PC\AppData\Local\Temp\scoped_dir7344_15493}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b6b40681189fa8719151fae9faf8f20
+*** Element info: {Using=xpath, value=.//input[@id='ap_password']} 
+2019-07-25 17:17:25,108 INFO  [Log] Closing the browser 
+2019-07-25 17:17:26,186 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 17:17:26,186 INFO  [Log] *****************END******************** 
+2019-07-25 17:17:26,202 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 17:17:26,202 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 17:17:41,664 INFO  [Log] *********Login_01************ 
+2019-07-25 17:17:41,664 INFO  [Log] Opening browser 
+2019-07-25 17:17:49,062 INFO  [Log] Navigating to url 
+2019-07-25 17:17:57,478 INFO  [Log] Clicking on element btn_SignIn 
+2019-07-25 17:18:01,296 INFO  [Log] Entering text in Email  
+2019-07-25 17:18:02,332 INFO  [Log] Entering text in Password 
+2019-07-25 17:18:02,426 ERROR [Log] Not able to Enter Password---no such element: Unable to locate element: {"method":"xpath","selector":".//input[@id='ap_password']"}
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'DESKTOP-UCGL7D2', ip: '192.168.2.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57990}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1), userDataDir=C:\Users\PC\AppData\Local\Temp\scoped_dir196_21630}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=75.0.3770.142, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a11e8933bcff483fd5e3e29e52a228c2
+*** Element info: {Using=xpath, value=.//input[@id='ap_password']} 
+2019-07-25 17:18:02,535 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 17:18:02,535 INFO  [Log] *****************END******************** 
+2019-07-25 17:18:02,535 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 17:18:02,551 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:20:54,951 INFO  [Log] *********Login_01************ 
+2019-07-25 20:20:54,982 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:20:54,982 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:20:54,982 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:20:55,960 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 20:20:55,960 INFO  [Log] *****************END******************** 
+2019-07-25 20:20:55,960 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:20:55,976 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:22:24,463 INFO  [Log] *********Login_01************ 
+2019-07-25 20:22:24,463 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:22:24,463 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:22:24,463 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:22:24,870 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 20:22:24,870 INFO  [Log] *****************END******************** 
+2019-07-25 20:22:24,870 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:22:24,870 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:23:35,933 INFO  [Log] *********Login_01************ 
+2019-07-25 20:23:35,961 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:23:35,961 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:23:35,961 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:23:36,441 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 20:23:36,445 INFO  [Log] *****************END******************** 
+2019-07-25 20:23:36,445 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 20:23:36,445 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:48:48,832 INFO  [Log] *********Login_01************ 
+2019-07-25 21:48:48,832 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:48:48,832 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:48:48,832 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:48:49,448 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:48:49,448 INFO  [Log] *****************END******************** 
+2019-07-25 21:48:49,448 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:48:49,448 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:49:49,408 INFO  [Log] *********Login_01************ 
+2019-07-25 21:49:49,408 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:49:49,408 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:49:49,408 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:49:49,720 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:49:49,720 INFO  [Log] *****************END******************** 
+2019-07-25 21:49:49,720 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:49:49,720 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:08,473 INFO  [Log] *********Login_01************ 
+2019-07-25 21:50:08,473 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:08,473 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:08,473 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:08,785 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:50:08,785 INFO  [Log] *****************END******************** 
+2019-07-25 21:50:08,785 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:08,785 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:16,840 INFO  [Log] *********Login_01************ 
+2019-07-25 21:50:16,840 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:16,840 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:16,840 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:17,168 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:50:17,168 INFO  [Log] *****************END******************** 
+2019-07-25 21:50:17,168 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:17,168 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:50,756 INFO  [Log] *********Login_01************ 
+2019-07-25 21:50:50,772 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:50,772 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:50,772 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:51,084 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:50:51,084 INFO  [Log] *****************END******************** 
+2019-07-25 21:50:51,084 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:50:51,084 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:52:12,446 INFO  [Log] *********Login_01************ 
+2019-07-25 21:52:12,446 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:52:12,446 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:52:12,446 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:52:12,761 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:52:12,761 INFO  [Log] *****************END******************** 
+2019-07-25 21:52:12,761 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:52:12,761 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:54:06,810 INFO  [Log] *********Login_01************ 
+2019-07-25 21:54:06,825 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:54:06,825 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:54:06,825 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:54:07,153 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 21:54:07,153 INFO  [Log] *****************END******************** 
+2019-07-25 21:54:07,153 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 21:54:07,153 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:01:34,160 INFO  [Log] *********Login_01************ 
+2019-07-25 22:01:34,176 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:01:34,176 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:01:34,176 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:01:34,488 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 22:01:34,488 INFO  [Log] *****************END******************** 
+2019-07-25 22:01:34,488 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:01:34,488 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:24,005 INFO  [Log] *********Login_01************ 
+2019-07-25 22:13:24,012 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:24,013 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:24,013 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:24,466 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 22:13:24,466 INFO  [Log] *****************END******************** 
+2019-07-25 22:13:24,467 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:24,467 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:40,734 INFO  [Log] *********Login_01************ 
+2019-07-25 22:13:40,743 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:40,743 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:40,743 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:41,183 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 22:13:41,183 INFO  [Log] *****************END******************** 
+2019-07-25 22:13:41,184 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:13:41,184 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:34:03,756 INFO  [Log] *********Login_01************ 
+2019-07-25 22:34:03,770 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:34:03,771 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:34:03,772 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:34:04,358 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 22:34:04,358 INFO  [Log] *****************END******************** 
+2019-07-25 22:34:04,359 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:34:04,360 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:56:36,742 INFO  [Log] *********Login_01************ 
+2019-07-25 22:57:02,815 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:57:02,823 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:57:02,826 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:57:04,904 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 22:57:04,904 INFO  [Log] *****************END******************** 
+2019-07-25 22:57:04,907 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:57:04,909 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:59:28,104 INFO  [Log] *********Login_01************ 
+2019-07-25 22:59:28,132 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:59:28,137 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:59:28,137 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:59:28,724 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-25 22:59:28,724 INFO  [Log] *****************END******************** 
+2019-07-25 22:59:28,726 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-25 22:59:28,727 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-26 12:14:35,226 INFO  [Log] *********Login_01************ 
+2019-07-26 12:19:45,515 INFO  [Log] *********Login_01************ 
+2019-07-26 12:19:45,515 INFO  [Log] Opening browser 
+2019-07-26 12:19:58,270 INFO  [Log] Chrome browser started... 
+2019-07-26 12:19:58,408 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 12:19:58,408 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 12:19:58,408 INFO  [Log] *****************END******************** 
+2019-07-26 12:19:58,419 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-26 12:19:58,420 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-26 12:34:41,008 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-26 12:34:41,008 ERROR [Log] Class Utils|Method getData|Exception desc :null 
+2019-07-26 13:03:18,889 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:03:18,889 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:03:18,889 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:03:18,889 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:05:03,458 INFO  [Log] *********Login_01************ 
+2019-07-26 13:05:03,476 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:05:03,477 INFO  [Log] Opening browser 
+2019-07-26 13:05:18,699 INFO  [Log] Chrome browser started... 
+2019-07-26 13:05:18,918 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 13:05:18,918 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 13:05:18,918 INFO  [Log] *****************END******************** 
+2019-07-26 13:07:08,521 INFO  [Log] *********Login_01************ 
+2019-07-26 13:07:08,541 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:07:08,541 INFO  [Log] Opening browser 
+2019-07-26 13:07:15,412 INFO  [Log] Chrome browser started... 
+2019-07-26 13:07:15,553 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 13:07:15,553 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 13:07:15,553 INFO  [Log] *****************END******************** 
+2019-07-26 13:08:47,121 INFO  [Log] *********Login_01************ 
+2019-07-26 13:08:47,137 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:08:47,137 INFO  [Log] Opening browser 
+2019-07-26 13:08:52,989 INFO  [Log] Chrome browser started... 
+2019-07-26 13:08:53,114 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 13:08:53,114 ERROR [Log] Class Utils|Method setData|Exception desc :D:\FrameWork\KeywordDrivenAmazon\src\dataEngine\DataEngine11.xlsx (The process cannot access the file because it is being used by another process) 
+2019-07-26 13:08:53,114 INFO  [Log] *****************END******************** 
+2019-07-26 13:10:33,287 INFO  [Log] *********Login_01************ 
+2019-07-26 13:10:33,304 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:10:33,305 INFO  [Log] Opening browser 
+2019-07-26 13:10:39,011 INFO  [Log] Chrome browser started... 
+2019-07-26 13:10:41,651 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-26 13:10:41,651 INFO  [Log] *****************END******************** 
+2019-07-26 13:14:58,403 INFO  [Log] *********Login_01************ 
+2019-07-26 13:14:58,425 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:14:58,425 INFO  [Log] Opening browser 
+2019-07-26 13:15:04,223 INFO  [Log] Chrome browser started... 
+2019-07-26 13:15:04,651 ERROR [Log] Class Utils|Method setData|Exception desc :null 
+2019-07-26 13:15:04,651 INFO  [Log] *****************END******************** 
+2019-07-26 13:18:42,621 INFO  [Log] ********************* 
+2019-07-26 13:18:42,636 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:18:42,637 INFO  [Log] Opening browser 
+2019-07-26 13:18:48,079 INFO  [Log] Chrome browser started... 
+2019-07-26 13:18:48,522 ERROR [Log] Class Utils|Method setData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:18:48,522 INFO  [Log] *****************END******************** 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,978 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,994 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,994 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,994 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,994 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,994 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:50,994 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,009 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,009 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,009 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,009 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,009 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,025 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,040 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,040 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,040 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,056 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,087 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,087 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,087 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,087 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,087 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,103 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,103 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,103 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,103 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,103 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,103 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,119 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,119 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,119 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,134 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,134 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,150 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,197 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,212 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,228 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,228 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,228 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,228 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,244 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,244 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,306 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,306 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,306 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,322 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,322 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,337 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,337 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,353 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,369 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,369 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,369 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,369 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,384 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,384 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,384 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,384 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,400 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,400 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,400 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,400 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,400 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,415 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,415 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,415 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,447 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,462 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,494 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,494 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,494 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,494 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,509 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,509 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,509 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,509 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,509 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,509 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,525 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,525 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,525 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,525 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,603 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,619 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,634 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,650 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,650 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,650 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,681 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,681 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,681 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,681 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,681 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,697 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,728 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,744 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,759 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,775 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,775 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,775 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,775 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,791 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,791 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,791 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,791 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,806 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,806 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,806 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,806 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,806 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,837 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,872 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,903 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,903 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,919 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,919 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,919 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,935 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,935 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,966 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,998 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,998 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,998 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:51,998 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,029 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,029 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,045 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,060 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,060 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,060 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,060 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,076 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,076 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,076 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,076 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,091 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,091 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,091 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,091 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,107 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,123 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,123 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,123 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,123 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,138 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,138 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,138 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,201 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,216 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,232 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,232 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,248 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,248 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,248 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,248 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,263 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,263 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,263 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,279 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,279 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,279 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,279 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,295 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,295 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,295 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,310 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,310 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,310 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,326 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,341 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,341 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,341 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,357 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,357 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,357 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,373 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,373 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,388 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,388 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,388 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,404 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,404 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,404 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,420 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,420 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,420 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,435 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,435 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,513 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,545 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,576 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,592 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,592 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,592 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,607 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,623 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,670 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,685 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,685 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,701 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,717 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,717 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,717 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,732 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,732 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,748 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,748 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,763 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,763 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,779 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,810 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,842 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,875 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,875 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,891 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,906 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,937 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,953 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,984 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,996 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:52,996 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,011 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,011 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,027 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,027 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,043 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,136 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,152 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,183 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,215 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,246 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,246 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,246 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,261 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,261 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,277 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,277 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,293 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,293 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,308 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,308 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,324 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,324 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,324 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,355 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,355 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,355 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,371 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,371 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,386 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,386 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,386 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,402 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,402 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,433 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,433 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,449 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,449 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,465 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,465 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,496 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,511 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,511 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,527 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,527 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,543 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,543 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,558 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,590 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,590 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,605 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,605 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,715 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,715 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,715 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,730 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,746 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,746 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,761 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,808 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,855 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,894 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,941 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,956 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:53,956 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,019 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,106 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,106 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,153 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,168 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,184 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,200 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,231 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,231 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,246 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,246 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,262 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,262 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,293 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,309 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,356 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,371 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,371 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,403 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,418 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,434 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,450 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,465 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,465 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,481 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,481 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,512 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,528 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,543 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,543 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,559 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,559 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,575 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,590 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,590 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,668 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,684 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,700 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,700 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,715 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,731 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,746 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,762 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,762 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,793 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,809 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,825 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,825 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,871 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,871 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,887 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,905 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,905 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,921 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,921 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,936 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,952 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,968 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,968 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:54,999 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,015 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,015 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,030 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,041 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,072 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,088 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,088 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,104 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,119 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,135 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,150 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,166 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,166 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,182 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,197 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,213 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,229 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,244 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,244 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,260 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,275 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,291 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,291 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,307 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,307 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,322 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,338 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,338 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,354 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,369 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,369 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,385 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,400 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,416 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,463 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,463 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,479 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,494 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,510 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,525 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,525 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,541 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,557 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,557 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,572 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,588 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,588 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,604 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,619 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,635 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,635 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,650 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,650 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,666 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,682 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,729 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,729 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,760 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,760 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,775 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,775 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,791 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,791 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,807 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,838 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,854 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,869 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,869 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,885 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,900 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:55,900 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:56,097 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:22:56,105 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:25:41,244 INFO  [Log] ********************* 
+2019-07-26 13:25:41,251 ERROR [Log] Class Utils|Method getData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:25:41,251 INFO  [Log] Opening browser 
+2019-07-26 13:25:46,861 INFO  [Log] Chrome browser started... 
+2019-07-26 13:25:47,370 ERROR [Log] Class Utils|Method setData|Exception desc :java.lang.NullPointerException 
+2019-07-26 13:25:47,370 INFO  [Log] *****************END******************** 

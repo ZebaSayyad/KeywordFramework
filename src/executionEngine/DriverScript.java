@@ -6,6 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Properties;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,7 @@ import org.openqa.selenium.interactions.Actions;
 import config.ActionKeywords;
 import config.Constants;
 import utility.ExcelUtils;
+import utility.Log;
 
 public class DriverScript {
 
@@ -28,18 +30,24 @@ public class DriverScript {
 
 	public static Method method[];
 
-	public DriverScript() {
-		actionKeywords = new ActionKeywords();
+	public static int iTestStep;
+	public static int iTestLastStep;
+	public static String sTestCaseID;
+	public static String sRunMode;
+	public static String testData;
 
-		method = actionKeywords.getClass().getMethods();
-	}
+	public static boolean bResult = true;
 
 	public static void main(String[] args) throws Exception {
 
-		String path = Constants.path_File;
+		actionKeywords = new ActionKeywords();
+		method = actionKeywords.getClass().getMethods();
 
-		// set Excel file path
-		ExcelUtils.setExcelFile(path, Constants.sheetName);
+		String path = Constants.path_File;
+		// set Excel file path`
+		ExcelUtils.setExcelFile(path);
+
+		DOMConfigurator.configure("log4j.xml");
 
 		// OR file path
 		String path_OR = Constants.path_OR;
@@ -48,16 +56,54 @@ public class DriverScript {
 		OR = new Properties(System.getProperties());
 		OR.load(fis);
 
-		for (int row = 1; row <= 10; row++) {
-			// get data from excel, colu is fix i.e Action Keyword and row varies so loop is
-			// used
-			sActionKeyword = ExcelUtils.getData(row, Constants.col_ActionKeyword,Constants.sheetName);
-			pageObject=ExcelUtils.getData(row, Constants.col_PageObject,Constants.sheetName);
+		DriverScript startEngine = new DriverScript();
+		startEngine.execute_TestCase();
+	}
 
-			execute_Actions();
+	private void execute_TestCase() throws Exception {
 
+		int iTotalTestCases = ExcelUtils.getRowCount(Constants.sheetName2_TestCases);
+
+		// This loop will execute number of times equal to Total number of test cases
+
+		for (int iTestcase = 1; iTestcase < iTotalTestCases; iTestcase++) {
+			bResult = true;
+
+			sTestCaseID = ExcelUtils.getData(iTestcase, Constants.col_TestCaseID, Constants.sheetName2_TestCases);
+
+			sRunMode = ExcelUtils.getData(iTestcase, Constants.col_Runmode, Constants.sheetName2_TestCases);
+
+			if (sRunMode.equals("Yes")) {
+
+				iTestStep = ExcelUtils.getRowContains(sTestCaseID, Constants.col_TestCaseID,
+						Constants.sheetName1_TestSteps);
+				iTestLastStep = ExcelUtils.getTestStepsCount(Constants.sheetName1_TestSteps, sTestCaseID, iTestStep);
+				Log.startTestCase(sTestCaseID);
+				// This loop will execute number of times equal to Total number of test steps
+				bResult = true;
+				for (int iTestStep=1; iTestStep < iTestLastStep; iTestStep++) {
+					sActionKeyword = ExcelUtils.getData(iTestStep, Constants.col_ActionKeyword,
+							Constants.sheetName1_TestSteps);
+					pageObject = ExcelUtils.getData(iTestStep, Constants.col_PageObject,
+							Constants.sheetName1_TestSteps);
+					testData = ExcelUtils.getData(iTestStep, Constants.col_DataSet, Constants.sheetName1_TestSteps);
+					execute_Actions();
+
+					if (bResult == false) {
+						ExcelUtils.setData(Constants.KEYWORD_FAIL, iTestcase, Constants.col_TestCasesResult,
+								Constants.sheetName2_TestCases);
+						Log.endTestCase(sTestCaseID);
+						break;
+					}
+
+				}
+				if (bResult == true) {
+					ExcelUtils.setData(Constants.KEYWORD_PASS, iTestcase, Constants.col_TestCasesResult,
+							Constants.sheetName2_TestCases);
+					Log.endTestCase(sTestCaseID);
+				}
+			}
 		}
-
 	}
 
 	// in reflection class there is a method with method[]
@@ -67,9 +113,19 @@ public class DriverScript {
 			// this will compare metho with ActionKeyword value got from the excel
 			if (method[i].getName().equals(sActionKeyword)) {
 				// this will invoke method after match found
-				method[i].invoke(actionKeywords, pageObject);
+				method[i].invoke(actionKeywords, pageObject, testData);
 
-				break;
+				if (bResult == true) {
+					ExcelUtils.setData(Constants.KEYWORD_PASS, iTestStep, Constants.col_TestStepsResult,
+							Constants.sheetName1_TestSteps);
+					break;
+				} else {
+					ExcelUtils.setData(Constants.KEYWORD_FAIL, iTestStep, Constants.col_TestStepsResult,
+							Constants.sheetName1_TestSteps);
+					// ActionKeywords.closeBrowser();
+					break;
+				}
+
 			}
 		}
 
